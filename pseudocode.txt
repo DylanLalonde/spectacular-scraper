@@ -1,0 +1,46 @@
+Need to find:
+    Missing video - will just check if contains video, then view video manually.
+    Broken content links
+    Missing "Related"
+    Check stories content for 'anything strange'
+
+
+Solution is to make 4 different programs.
+
+Each program takes a list of urls in a csv as input, checks each url for different 
+issues, and then logs the needed information in the correct columns in the csv output.
+
+
+1. Missing video:
+
+Checks if #contentMain contains .mediastack--video.
+
+
+2. Broken content links:
+
+    1st program (create json containing each article's links):
+
+        Checks if each .article-section>.article-section-content>p within #contentMain 
+        contains an a (link). Each link then gets added to a json file like this:
+            {
+                "story_url": "examplestory.com",
+                "story_links": [
+                    "exampleexternmallink1.com",
+                    "exampleexternmallink2.com",
+                    "/example/internal/link1",
+                    "/example/internal/link2"
+                ]
+            }
+
+    2nd program (check each link in json, log if broken in csv):
+
+
+3. Missing "Related":
+
+Simply checks if the dom contains .field--name-field-relevancy-points. 
+
+
+4. Find 'anything strange':
+
+Doug cited stray "<br>'s" in the content. Check stories content for "<" in text, 
+this would identify any stray html tags that made it into the output of the page.
