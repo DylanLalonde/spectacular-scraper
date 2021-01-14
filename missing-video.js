@@ -2,9 +2,17 @@ const puppeteer = require('puppeteer');
 
 (async () => {
 
-    // let story_url = 'https://spectacularnwt.com/what-to-do/fishing/arctic-char';
+    // page with 1 section and no video:
+    let story_url = 'https://spectacularnwt.com/what-to-do/fishing/arctic-char';
+    
+    // page with 1 section including a video:
     // let story_url = 'https://spectacularnwt.com/story/bleeping-big-fish-nsfw-angling-northwest-territories';
-    let story_url = 'https://spectacularnwt.com/story/21-record-breaking-things-northwest-territories';
+   
+    // page with many sections and no video:
+    // let story_url = 'https://spectacularnwt.com/story/21-record-breaking-things-northwest-territories';
+
+    // page with many sections including a video:
+    // let story_url = 'https://spectacularnwt.com/story/win-super-prize-to-spectacular-sahtu';
 
     let browser = await puppeteer.launch();
     let page = await browser.newPage();
@@ -35,7 +43,7 @@ const puppeteer = require('puppeteer');
 
     console.log(data);
 
-    debugger;
+    // debugger;
 
     await browser.close();
 
