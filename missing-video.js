@@ -3,16 +3,18 @@ const fs = require('fs');
 
 let new_data = [];
 
+
 // Reading json data using our helper function
-jsonReader('./test-data.json', (err, jsonData) => {
+jsonReader('./data/test-data.json', (err, jsonData) => {
   if (err) {
     console.log(err);
   } else {
+    // loop over each json entry
     for (let i = 0; i < jsonData.length; i++) {
       let story_url = jsonData[i].url;
       
+      // check each url
       (async () => {
-
         let newJsonObject = {};
         let browser = await puppeteer.launch();
         let page = await browser.newPage();
@@ -24,6 +26,7 @@ jsonReader('./test-data.json', (err, jsonData) => {
           let contains_video = false;
           let article_sections = document.querySelectorAll('section[itemprop="articleSection"]');
 
+          // check each article section for videos
           article_sections.forEach(article_section => {
             if (article_section.classList.contains("mediastack--video")) {
               contains_video = true;
@@ -37,11 +40,12 @@ jsonReader('./test-data.json', (err, jsonData) => {
           }
         });
 
+        // store data about articles containing videos into json file
         newJsonObject["url"] = story_url;
         newJsonObject["contains_video"] = data.contains_video;
         new_data.push(newJsonObject);
 
-        fs.writeFile('test-output-data.json', JSON.stringify(new_data, null, 2), err => {
+        fs.writeFile('./data/test-output-data.json', JSON.stringify(new_data, null, 2), err => {
           if (err) {
             console.log(err);
           } else {
