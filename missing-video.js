@@ -1,50 +1,75 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
-(async () => {
+let new_data = [];
 
-    // page with 1 section and no video:
-    let story_url = 'https://spectacularnwt.com/what-to-do/fishing/arctic-char';
-    
-    // page with 1 section including a video:
-    // let story_url = 'https://spectacularnwt.com/story/bleeping-big-fish-nsfw-angling-northwest-territories';
-   
-    // page with many sections and no video:
-    // let story_url = 'https://spectacularnwt.com/story/21-record-breaking-things-northwest-territories';
+// Reading json data using our helper function
+jsonReader('./test-data.json', (err, jsonData) => {
+  if (err) {
+    console.log(err);
+  } else {
+    for (let i = 0; i < jsonData.length; i++) {
+      let story_url = jsonData[i].url;
+      
+      (async () => {
 
-    // page with many sections including a video:
-    // let story_url = 'https://spectacularnwt.com/story/win-super-prize-to-spectacular-sahtu';
+        let newJsonObject = {};
+        let browser = await puppeteer.launch();
+        let page = await browser.newPage();
 
-    let browser = await puppeteer.launch();
-    let page = await browser.newPage();
+        await page.goto(story_url, { waitUntil: 'networkidle2' });
 
-    await page.goto(story_url, { waitUntil: 'networkidle2' });
+        let data = await page.evaluate(() => {
 
-    let data = await page.evaluate(() => {
+          let contains_video = false;
+          let article_sections = document.querySelectorAll('section[itemprop="articleSection"]');
 
-        let page_contains_video = false;
-
-        let article_sections = document.querySelectorAll('section[itemprop="articleSection"]');
-
-        article_sections.forEach(article_section => {
-            
+          article_sections.forEach(article_section => {
             if (article_section.classList.contains("mediastack--video")) {
-                page_contains_video = true;
+              contains_video = true;
             } else {
-                page_contains_video = false;
+              contains_video = false;
             }
-            return page_contains_video;
+          });
+
+          return {
+            contains_video
+          }
         });
 
-        return {
-            page_contains_video
-        }
+        newJsonObject["url"] = story_url;
+        newJsonObject["contains_video"] = data.contains_video;
+        new_data.push(newJsonObject);
 
-    })
+        fs.writeFile('test-output-data.json', JSON.stringify(new_data, null, 2), err => {
+          if (err) {
+            console.log(err);
+          } else {
+            console.log("Data was successfully written!");
+          }
+        });
+        await browser.close();
+      })();
+    }
+  }
+});
 
-    console.log(data);
 
-    // debugger;
 
-    await browser.close();
+/*
+Helper Functions
+*/
 
-})();
+function jsonReader(filePath, callback) {
+  fs.readFile(filePath, 'utf8', (err, fileData) => {
+    if (err) {
+      return callback && callback(err);
+    }
+    try {
+      const jsonObject = JSON.parse(fileData);
+      return callback && callback(null, jsonObject);
+    } catch (err) {
+      return callback && callback(err);
+    }
+  });  
+}
