@@ -2,7 +2,6 @@ Need to find:
     Missing video - will just check if contains video, then view video manually.
     Broken content links
     Missing "Related"
-    Check stories content for 'anything strange'
 
 
 Solution is to make 4 different programs.
@@ -38,9 +37,3 @@ Checks if #contentMain contains .mediastack--video.
 3. Missing "Related":
 
 Simply checks if the dom contains .field--name-field-relevancy-points. 
-
-
-4. Find 'anything strange':
-
-Doug cited stray "<br>'s" in the content. Check stories content for "<" in text, 
-this would identify any stray html tags that made it into the output of the page.

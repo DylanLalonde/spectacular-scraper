@@ -1,11 +1,11 @@
+// libraries
 const fs = require('fs');
 const request = require('request');
 const cheerio = require('cheerio');
 
+// data
 const input_json_data = require('./data/test-data.json');
-
 const output_json_data = [];
-
 
 for (let i = 0; i < input_json_data.length; i++) {
 
