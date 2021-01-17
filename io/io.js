@@ -1,12 +1,5 @@
 const fs = require('fs');
 
-/**
- * 
- * @param {
-  * 
-  * } data 
-  */
-
 function readJson(filePath, callback) {
   fs.readFile(filePath, 'utf8', (err, fileData) => {
     if (err) {
@@ -20,13 +13,6 @@ function readJson(filePath, callback) {
     }
   });  
 }
-
-/**
- * 
- * @param {
- * 
- * } data 
- */
 
 async function writeData(data) {
   fs.writeFile('./data/test-output-data.json', JSON.stringify(data, null, 2), err => {

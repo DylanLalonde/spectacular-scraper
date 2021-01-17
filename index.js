@@ -5,10 +5,11 @@ const hasVideo = require('./features/has-video.js');
 const missingRelated = require('./features/missing-related.js');
 
 
+
 init();
 
 function init() {
-  io.readJson('./data/data.json', performUrlLookups);
+  io.readJson('./data/test-data.json', performUrlLookups);
     
   async function performUrlLookups (err, jsonData) {
     let new_data = [];
@@ -17,7 +18,7 @@ function init() {
   
     for (let i = 0; i < jsonData.length; i++) {
   
-      let story_url = jsonData[i].URL;
+      let story_url = jsonData[i].url;
       
       console.log("checking new url: ", story_url);
       
