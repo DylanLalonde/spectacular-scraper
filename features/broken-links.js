@@ -6,7 +6,7 @@ async function brokenLinks(page) {
     )
   );
 
-  // console.log(hrefs);
+  console.log(hrefs);
   return hrefs;
 };  
 
