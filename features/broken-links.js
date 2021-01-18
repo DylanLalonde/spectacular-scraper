@@ -73,5 +73,30 @@ async function prependDomain(incoming_links) {
   }
 }
 
+// async function prependDomain(incoming_links) {
+
+//   domain = "https://spectacularnwt.com"
+//   prependedLinks = [];
+
+//   try {
+//     incoming_links.forEach(link => {
+//       if (link.startsWith('/')) {
+//         prependedLinks.push(domain + link);
+//       } 
+//       if (link.startsWith('www') || link.startsWith('https://') || link.startsWith('http://')) {
+//         prependedLinks.push(link);
+//       }
+//       if (link.startsWith('mailto:')) {
+//         console.log("mailto: link found: " + link);
+//       } 
+//       else {
+//         prependedLinks.push(link);
+//       }
+//     });
+//     return prependedLinks;
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
 
 module.exports = brokenLinks;
