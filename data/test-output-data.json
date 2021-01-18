@@ -2,21 +2,46 @@
   {
     "url": "https://spectacularnwt.com/story/bleeping-big-fish-nsfw-angling-northwest-territories",
     "contains_video": true,
+    "broken_links": [
+      []
+    ],
     "missing_related": false
   },
   {
     "url": "https://spectacularnwt.com/what-to-do/fishing/arctic-char",
     "contains_video": false,
+    "broken_links": [
+      []
+    ],
     "missing_related": true
   },
   {
     "url": "https://spectacularnwt.com/story/par-north",
     "contains_video": false,
+    "broken_links": [
+      []
+    ],
     "missing_related": false
   },
   {
     "url": "https://spectacularnwt.com/story/sahtu-close-comfortable",
     "contains_video": false,
+    "broken_links": [
+      [
+        "https://sahtuadventures.ca/"
+      ]
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-three-days-fantastic-fort-simpson",
+    "contains_video": false,
+    "broken_links": [
+      [
+        "https://spectacularnwt.com/operators/fort-simpson-visitor-information-centre",
+        "https://spectacularnwt.com/operators/nahanni-national-park-reserve"
+      ]
+    ],
     "missing_related": false
   }
 ]

@@ -14,15 +14,16 @@ async function brokenLinks(page) {
   );
 
   const links_to_check = await prependDomain(hrefs);
+  console.log("Links to check: " + links_to_check);
   broken_links.push(await checkLink(links_to_check));
-  // return broken_links;
-  console.log(broken_links);
+  console.log("Broken links: " + broken_links);
+  return broken_links;
 };  
 
 
 async function checkLink(links_to_check) {
   
-  // let broken_links_on_page = [];
+  let broken_links_on_page = [];
   
   for (const link of links_to_check) {
     console.log("checking link: " + link)
@@ -32,25 +33,27 @@ async function checkLink(links_to_check) {
       if (res.status == 200 || res.status == 201 || res.status == 202) {
         console.log('Link is up! Status: ' + res.status)
       }
+      if (res.status == 301 || res.status == 302) {
+        console.log('Link is redirecting us:' + res.status);
+        broken_links_on_page.push(link);
+      }
+      if (res.status == 401 || res.status == 403) {
+        console.log('Uh oh, not authorized to view link: ' + res.status)
+        broken_links_on_page.push(link);
+      }
     } catch (err) {
         // Handle Error Here
       if (err.code == 'ECONNRESET') {
         console.log('Uh oh, link is down: ' + err.code)
-        return err.code;
-      }
-      if (err.response.status == 401 || err.response.status == 403) {
-        console.log('Uh oh, not authorized to view link: ' + err.response.status)
-        return err.response.status;
-      }
-      if (err.response.status == 301 || err.response.status == 302) {
-        console.log('Link is redirecting us:' + err);
-        return err.response.status;
+        broken_links_on_page.push(link);
       } else {
         console.log('Link is down, error message:' + err);
-        return err;
+        // return err;
+        broken_links_on_page.push(link);
       }
     }
   }
+  return broken_links_on_page;
 };
 
 async function prependDomain(incoming_links) {
