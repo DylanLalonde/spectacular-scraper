@@ -1,4 +1,4 @@
-# spectacular-scraper
+# spectacular-crawler
 
 This program takes a list of URLs (JSON) on a (currently hardcoded) website, and checks each link for specific issues.
 The links are all blog articles, and they are each checked for:
