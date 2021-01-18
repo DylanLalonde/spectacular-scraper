@@ -1,25 +1,94 @@
 [
   {
-    "url": "https://spectacularnwt.com/story/bleeping-big-fish-nsfw-angling-northwest-territories",
-    "contains_video": true,
+    "url": "https://spectacularnwt.com/story/what-lies-beneath",
+    "contains_video": false,
     "broken_links": [
-      []
+      "https://spectacularnwt.com/what-do/summer-adventure/paddling"
     ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/paddling-mountain-river-canadas-iconic-whitewater-canoeing-adventure",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/nahanni-river-adventures"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/par-north",
+    "contains_video": false,
+    "broken_links": [],
     "missing_related": false
   },
   {
     "url": "https://spectacularnwt.com/what-to-do/fishing/arctic-char",
     "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-escape-traffic-and-take-glorious-4-day-detour-alaska-highway",
+    "contains_video": false,
     "broken_links": [
-      []
+      "https://spectacularnwt.com/what-to-do/road-trips/dehcho-travel-connection",
+      "https://spectacularnwt.com/operators/blackstone-territorial-park",
+      "https://spectacularnwt.com/operators/fort-simpson-visitor-information-centre"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/why-campgrounds-northwest-territories-are-better-five-star-hotel",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/what-to-do/fishing/species/great-northern-pike"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/big-picture-shutterbugs-delight-petersons-point-lake-lodge",
+    "contains_video": false,
+    "broken_links": [
+      "www.petersonspointlake.com/photography.html"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/petersons-point-lake-lodge-reel-big-experience",
+    "contains_video": false,
+    "broken_links": [
+      "http://www.petersonspointlake.com/fishing.html"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/planespotting-your-guide-to-watching-bushplanes-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-two-days-to-giver-hay-river",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/hay-river-visitor-centre",
+      "https://spectacularnwt.com/operators/winnies-dene-art-gallery-and-gift-shop"
     ],
     "missing_related": true
   },
   {
-    "url": "https://spectacularnwt.com/story/par-north",
+    "url": "https://spectacularnwt.com/story/sahtu-ancient-cultures-wild-waters-and-world-record-fish",
     "contains_video": false,
     "broken_links": [
-      []
+      "destinations/sahtu/colville-lake"
+    ],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/21-record-breaking-things-northwest-territories",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/destinations/western-arctic/inuvik-tuk-highway"
     ],
     "missing_related": false
   },
@@ -27,9 +96,16 @@
     "url": "https://spectacularnwt.com/story/sahtu-close-comfortable",
     "contains_video": false,
     "broken_links": [
-      [
-        "https://sahtuadventures.ca/"
-      ]
+      "https://sahtuadventures.ca/"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/midnight-sun-so-freaky-and-wild-youve-just-gotta-see-it",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/where-hit-beach",
+      "http://v5.spectacularnwt.com/destinations/western-arctic/inuvik"
     ],
     "missing_related": false
   },
@@ -37,11 +113,1148 @@
     "url": "https://spectacularnwt.com/story/itinerary-three-days-fantastic-fort-simpson",
     "contains_video": false,
     "broken_links": [
-      [
-        "https://spectacularnwt.com/operators/fort-simpson-visitor-information-centre",
-        "https://spectacularnwt.com/operators/nahanni-national-park-reserve"
-      ]
+      "https://spectacularnwt.com/operators/fort-simpson-visitor-information-centre",
+      "https://spectacularnwt.com/operators/nahanni-national-park-reserve"
     ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-three-days-wood-buffalo-national-park",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/fort-smith-visitor-reception-centre"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/21-serene-spaces-where-you-can-really-chill-out-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/bleeping-big-fish-nsfw-angling-northwest-territories",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-three-unforgettable-days-norman-wells-and-deline",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-inuvik-and-tuktoyaktuk-three-thrilling-days",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/heres-27-reasons-why-paddling-northwest-territories-splash",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/packages/virginia-falls-nahanni-national-park-reserve-package"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/festival-goes-flow",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/whatever-floats-your-boat-9-wild-ways-to-enjoy-water-northwest-territories",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/fishing-while-walking-water"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/check-out-colourful-soulful-churches-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/where-wild-things-are-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/going-to-dogs-northwest-territories",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/yellow-dog-lodge-where-stories-are-made",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/inuvik-celebrates-summer-4-events-festivals-under-arctic-midnight-sun",
+    "contains_video": false,
+    "broken_links": [
+      "https://calendar.inuvik.ca/communitycalendar/Detail/2018-06-21-0100-National-Indigenous-Peoples-Day-2018#"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/best-fests",
+    "contains_video": false,
+    "broken_links": [
+      "www.folkontherocks.com",
+      "gnaf.org"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/8-greatest-things-about-great-northern-arts-festival",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/here-are-5-most-canadian-things-you-can-do-northwest-territories-canada-day",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/theres-place-where-monsters-are-real",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/heres-history-and-mystery-northwest-passage",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/how-late-do-you-have-to-stay-to-watch-sun-set-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/transfixed-lights-blachford-lake-lodge",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/youve-never-seen-aurora",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-one-wild-weekend-yellowknife",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/old-town-yellowknife",
+      "https://spectacularnwt.com/operators/nwt-brewing-company",
+      "https://spectacularnwt.com/attraction/cameron-falls-0",
+      "https://spectacularnwt.com/operators/bullocks-bistro"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/why-birders-flock-north",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/salt-plains"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/15-strange-and-dangerous-places-canadas-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/gone-fishin-whole-family",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/get-here-to-get-down-your-guide-to-norths-best-fests",
+    "contains_video": false,
+    "broken_links": [
+      "http://v5.spectacularnwt.com/what-to-do/summer-adventure/summer-events",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway",
+      "https://spectacularnwt.com/operators/fred-henne-territorial-park",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/king-and-his-icy-castle",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/why-aurora-awesome-summer",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/wilderness-just-outside-big-city-doing-ingraham-trail-parks",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/cameron-falls-0",
+      "https://spectacularnwt.com/attraction/cameron-falls-0"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/doing-south-slave-parks",
+    "contains_video": false,
+    "broken_links": [
+      "www.nwtparks.ca/campgrounds/twin-falls-gorge-louise-falls-campground",
+      "https://spectacularnwt.com/operators/hay-river-territorial-park",
+      "www.nwtparks.ca/campgrounds/hay-river-territorial-park",
+      "https://spectacularnwt.com/operators/queen-elizabeth-territorial-park",
+      "www.nwtparks.ca/campgrounds/queen-elizabeth-territorial-park"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/doing-dehcho-parks-road-trip-through-nwts-southern-playground",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/fort-simpson-territorial-park",
+      "https://spectacularnwt.com/operators/sambaa-deh-territorial-park",
+      "https://spectacularnwt.com/operators/fort-simpson-territorial-park",
+      "https://spectacularnwt.com/operators/blackstone-territorial-park"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/who-we-are-gerry-kisoun-delta-trailblazer",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/city-livin-got-you-down-make-your-wild-escape",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/cirque-unclimbalbes"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/legend-deadman-valley",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/nahanni-conservation-triumph",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/where-each-paddling-trip-pilgrimage",
+    "contains_video": false,
+    "broken_links": [
+      "attraction/virginia-falls"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/who-we-are-ragnar-wesstrom-king-trout-rock",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/your-guide-to-road-less-travelled",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/acho-dene-native-crafts"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/what-to-do-deline",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/how-to-chase-aurora",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/fall-love-food-nwt",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/shop-til-you-drop",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/how-to-fish-inconnu",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/shining-light-inuvik-sunrise-festival",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/spectacularly-quiet-wood-buffalo-national-park",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/what-to-do-fort-smith",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/queen-elizabeth-territorial-park",
+      "https://spectacularnwt.com/operators/whooping-crane-guest-house",
+      "https://spectacularnwt.com/operators/whispering-pines-cottages",
+      "https://spectacularnwt.com/operators/wood-buffalo-inn",
+      "https://spectacularnwt.com/attraction/salt-plains",
+      "https://spectacularnwt.com/operators/rusty-raven-gallery-gift"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/what-to-do-fort-providence",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/biking-to-your-liking-5-fabulous-rides-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/who-we-are-wendy-grater-river-queen",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/alex-hall-original-river-guide",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/who-we-are-ted-grant-nahannis-greatest-pilot-1",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/nahanni-sky"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/what-to-do-hay-river-hub-north",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/where-to-hit-beach"
+    ],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/explorer-hotel-setting-new-standard-luxury",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/traders-grill-and-trapline-lounge"
+    ],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/seven-must-see-museums",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/northern-life-museum-cultural-centre",
+      "https://spectacularnwt.com/operators/legislative-assembly-northwest-territories",
+      "https://spectacularnwt.com/operators/yamozha-kue-society-dene-cultural-institute"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/journey-through-land-and-sky-fort-smith-and-wood-buffalo-national-park",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/destinations/national-parks/fort-smith",
+      "https://spectacularnwt.com/attraction/salt-plains",
+      "http://www.flynwal.com"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/what-to-do-yellowknife-winter",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/secret-paradise",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/packages/virginia-falls-nahanni-national-park-reserve-package",
+      "https://spectacularnwt.com/story/where-to-hit-beach"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/sahtu-past-still-us",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/sahtu-canoe-yahoo",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/guide-to-rving-wild-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/why-pingos-are-norths-weirdest-landmarks",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/destinations/western-arctic/inuvik-tuk-highway"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/these-5-flightseeing-tours-will-send-your-heart-soaring",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/salt-plains"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/nwts-toughest-trail",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/five-sparkling-features-canadas-diamond-capital",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/heres-why-western-arctic-road-trip-lifetime",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/heres-why-our-winter-fests-are-snow-fun",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/great-lakes-deep-secrets",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/youll-love-our-long-lines-experience-incredible-fly-fishing-canadas-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/rush-hour",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/naatsihchoh-national-park",
+      "https://spectacularnwt.com/attraction/nahanni-national-park",
+      "https://spectacularnwt.com/attraction/nahanni-national-park"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/tundra-sharks",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/heres-how-hot-it-gets-canadas-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/walk-wild-side-tour-old-town-canadas-weirdest-neighbourhood",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/houseboat-bay",
+      "https://spectacularnwt.com/operators/bullocks-bistro"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/five-reasons-why-fishing-south-slave-hook",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/destination/south-slave/hay-river"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/paddling-mountain-river-canadas-iconic-whitewater-canoeing-adventure",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/nahanni-river-adventures"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/1800-kilometres-zero-portages",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/saddle-hunt-lifetime",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/canol-trail-one-canadas-wildest-realms",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/hike-halfway-to-heaven",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/packages/ivvavik-base-camp"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/keep-yellowknife-weird-six-reasons-to-love-old-town-ramble-and-ride",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/old-town-yellowknife",
+      "https://spectacularnwt.com/story/you-must-eat-here"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/9-reasons-northwest-territories-watery-wonderland",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/what-to-do/fishing/species/great-northern-pike",
+      "https://spectacularnwt.com/what-to-do/fishing/species/lake-whitefish",
+      "https://spectacularnwt.com/story/epic-canoeing-naatsihchoh-national-park",
+      "https://spectacularnwt.com/story/holy-grail-whitewater-wilderness-rivers"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/youre-not-true-traveller-til-youve-done",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/paddle-big-mackenzie-through-heart-sahtu",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/two-rivers-hotel"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/wrigley-calling-drive-norths-unsung-highway",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/discover-northwest-territories-soaring-flightseeing-tour",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/travel-info/getting-around-nwt",
+      "https://spectacularnwt.com/attraction/houseboat-bay",
+      "https://spectacularnwt.com/attraction/old-town-yellowknife"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/follow-first-ever-highway-to-arctic-ocean",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/big-river-big-secret"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/why-hay-rivers-pond-hockey-tournament-greatest-show-ice",
+    "contains_video": true,
+    "broken_links": [
+      "https://polarpondhockey.com/"
+    ],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/four-exciting-ways-to-explore-dehcho-region",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/bannock-norths-comfort-food",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/7-slick-reasons-to-experience-legendary-ice-roads-northwest-territories",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/where-we-live-whati",
+      "https://spectacularnwt.com/story/where-we-live-deline",
+      "https://spectacularnwt.com/story/where-we-live-sambaa-ke",
+      "https://spectacularnwt.com/story/where-we-live-aklavik"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/hot-happenings-coolest-capital",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/picture-our-perfect-waterside-parks",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/twin-falls-gorge-territorial-park",
+      "https://spectacularnwt.com/attraction/frame-lake-trail-0",
+      "https://spectacularnwt.com/attraction/papal-site",
+      "https://spectacularnwt.com/operators/lady-evelyn-falls-territorial-park",
+      "https://spectacularnwt.com/what-to-do/fishing/species/great-northern-pike",
+      "https://spectacularnwt.com/story/pickerel-walleye",
+      "https://spectacularnwt.com/operators/sambaa-deh-territorial-park",
+      "https://spectacularnwt.com/attraction/queen-elizabeth-territorial-park"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/meet-huskies-thatll-make-you-howl",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/events/diavik-150-canadian-championship-dog-derby",
+      "https://spectacularnwt.com/operators/nivek-ltd"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/drive-to-end-road",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/camping-arctic-autumn-how-to-guide",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/15-reasons-youll-fall-autumn-canadas-northwest-territories",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/wanna-hang-out-midnight-sun",
+      "https://spectacularnwt.com/story/here-comes-midnight-sun",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway",
+      "https://spectacularnwt.com/destinations/western-arctic/inuvik-tuk-highway"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/how-to-ice-fish",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/day-blachford-lake-lodge",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/seven-ways-hay-river-will-inspire-you",
+    "contains_video": false,
+    "broken_links": [
+      "mailto:tourism@hayriver.com"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/try-tuktoyaktuk-or-tuk-its-residents-would-say",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/what-to-do/road-trips/highway-to-arctic-ocean",
+      "attraction/pingos"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/photographing-aurora-blachford-lake-lodge",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/guide-to-lutsel-ke",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/itinerary-drive-to-arctic-ocean-and-celebrate-these-lovely-folks",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/santas-reindeer-are-real-and-they-live-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/10-spectacular-selfies-our-parks-will-make-your-followers-jealous",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/19-things-you-definitely-do-not-want-to-do-canadas-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/big-city-lights-experience-worlds-best-aurora",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/team-building",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/five-reasons-to-visit-fort-smith",
+    "contains_video": false,
+    "broken_links": [
+      "attraction/slave-river-rapids",
+      "attraction/salt-plains",
+      "mailto:townoffortsmith@fortsmith.ca"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/northwest-territories-has-big-bison-no-bull",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/salt-plains"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/pay-homage-to-sacred-gathering-place-now-worlds-tallest-teepee",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/9-reasons-mighty-mackenzie-canadas-coolest-waterway",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/dehcho-bridge-numbers"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/traffic-jams",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway",
+      "https://spectacularnwt.com/travel-info/getting-around-nwt",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway",
+      "https://spectacularnwt.com/destinations/western-arctic/dempster-highway"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/skyscrapers",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/old-town-yellowknife",
+      "https://spectacularnwt.com/packages/virginia-falls-nahanni-national-park-reserve-package",
+      "https://spectacularnwt.com/operators/jak-territorial-park"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/log-parks",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/attraction/queen-elizabeth-territorial-park"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/networking",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/what-to-do/fishing/species/great-northern-pike",
+      "https://spectacularnwt.com/story/big-river-big-secret"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/six-must-do-stops-wood-buffalo-route",
+    "contains_video": false,
+    "broken_links": [
+      "https://www.fortsmith.ca/attraction/trans-canada-trail"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/7-remarkable-reasons-why-northwest-territories-has-finest-auroras-earth",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/colours-close-enough-to-touch"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/land-spectacular-waterfalls",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/lady-evelyn-falls-territorial-park",
+      "https://spectacularnwt.com/attraction/cameron-falls-0"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/12-cool-ways-to-make-tracks-nwt",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/8-bright-reasons-to-get-starry-eyed-dark-sky-festival-fort-smith",
+    "contains_video": false,
+    "broken_links": [
+      "http://http://www.tawbas.ca/dark-sky-festival.html"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/where-tweeting-birds",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/trek-park-less-travelled-0",
+      "https://spectacularnwt.com/story/escaping-to-heart-it-all"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/best-beaches-northwest-territories-summer",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/its-better-barrenlands",
+    "contains_video": false,
+    "broken_links": [
+      "http://v5.spectacularnwt.com/destinations/north-slave/wekweeti"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/cool-highways-4-awesome-ice-roads-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/nwt-canadian-signature-experiences",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/snake-orgy-were-serious",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/peak-no-name",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/how-to-have-ultimate-long-weekend-nwt-style",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/driving-most-extreme-machine",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/paddle-through-paradise",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/capturing-magic-aurora",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/where-nice-comes-territory-reuniting-charles-his-best-friend",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/afraid-heights-dont-travel-here",
+    "contains_video": true,
+    "broken_links": [
+      "https://spectacularnwt.com/what-do/summer-adventure/parks-camping"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/where-nice-comes-territory-good-guide-ready-anything",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/where-nice-comes-territory-khoan-phams-spectacular-journey",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/5-best-things-about-folk-rocks",
+    "contains_video": false,
+    "broken_links": [
+      "http://v5.spectacularnwt.com/destinations/yellowknife",
+      "http://v5.spectacularnwt.com/destinations/yellowknife"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/norths-hidden-masterpieces",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/why-great-bear-now-even-greater",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/window-northern-life",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": true
+  },
+  {
+    "url": "https://spectacularnwt.com/story/tlicho-online-store",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/northern-myths-north-too-far-away",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/what-lies-beneath",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/what-do/summer-adventure/paddling"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/out-land-nwt",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/indigenous-stories-aurora-village",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/indigenous-stories-narwal-northern-adventures",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/indigenous-stories-tundra-north-tours",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/learning-and-connecting-through-art",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/10-magical-moments-under-midnight-sun",
+    "contains_video": false,
+    "broken_links": [
+      "https://elizabethhay.com/?book=books/late-nights-on-air"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/yellowknife-winter-city",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/par-north",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/giving-gift-northern-lights",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/falling-waterfalls",
+    "contains_video": true,
+    "broken_links": [
+      "https://spectacularnwt.com/operators/twin-falls-gorge-territorial-park",
+      "https://spectacularnwt.com/what-do/summer-adventure/parks-camping"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/step-rhythms-land",
+    "contains_video": true,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/eight-timeless-and-exquisite-traditional-arts-northwest-territories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/5-mind-blowing-wonders-nahanni",
+    "contains_video": false,
+    "broken_links": [
+      "https://spectacularnwt.com/story/pickerel-walleye",
+      "https://spectacularnwt.com/what-to-do/fishing/species/great-northern-pike"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/wood-buffalo-big-park-no-bull",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/big-fish-make-better-fish-stories",
+    "contains_video": false,
+    "broken_links": [],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/water-slide-grownups-keele-river-heart-northwest-territories",
+    "contains_video": true,
+    "broken_links": [
+      "https://spectacularnwt.com/what-do/summer-adventure/paddling"
+    ],
+    "missing_related": false
+  },
+  {
+    "url": "https://spectacularnwt.com/story/sorry-about-sleep-deprivation",
+    "contains_video": true,
+    "broken_links": [],
     "missing_related": false
   }
 ]

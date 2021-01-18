@@ -5,7 +5,6 @@ const hasVideo = require('./features/has-video.js');
 const missingRelated = require('./features/missing-related.js');
 
 
-
 init();
 
 function init() {
@@ -36,10 +35,9 @@ function init() {
   };
   
   async function getScrapedData(page, story_url) {
-    // creating the new object to stringify/store
+    
     let scrapedUrlInfo = {};
     
-    // store data about articles containing videos into json file
     scrapedUrlInfo["url"] = story_url;
     scrapedUrlInfo["contains_video"] = await hasVideo(page);
     scrapedUrlInfo["broken_links"] = await brokenLinks(page);

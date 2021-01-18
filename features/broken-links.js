@@ -1,26 +1,26 @@
 const axios = require('axios');
 
 
-
 async function brokenLinks(page) {
-
-  const broken_links = [];
-
-  const hrefs = await page.evaluate(
-    () => Array.from(
-      document.querySelectorAll('div.article-section-content p a[href]'),
-      a => a.getAttribute('href')
-    )
+  const hrefs = await page.evaluate(() => {
+      try {
+        return Array.from(
+          document.querySelectorAll('div.article-section-content p a[href]'),
+          a => a.getAttribute('href')
+        )
+      } catch (err) {
+        console.log(err);
+      }
+    }
   );
-
   const links_to_check = await prependDomain(hrefs);
-  console.log("Links to check: " + links_to_check);
-  broken_links.push(await checkLink(links_to_check));
-  console.log("Broken links: " + broken_links);
-  return broken_links;
+  console.log("Links to check: " + links_to_check.length);
+  return await checkLink(links_to_check);
 };  
 
-
+/**
+ * Helper functions
+ */
 async function checkLink(links_to_check) {
   
   let broken_links_on_page = [];
@@ -42,13 +42,11 @@ async function checkLink(links_to_check) {
         broken_links_on_page.push(link);
       }
     } catch (err) {
-        // Handle Error Here
       if (err.code == 'ECONNRESET') {
         console.log('Uh oh, link is down: ' + err.code)
         broken_links_on_page.push(link);
       } else {
-        console.log('Link is down, error message:' + err);
-        // return err;
+        console.log('Link is down, error message: ' + err);
         broken_links_on_page.push(link);
       }
     }
@@ -74,7 +72,6 @@ async function prependDomain(incoming_links) {
     console.log(err);
   }
 }
-
 
 
 module.exports = brokenLinks;
