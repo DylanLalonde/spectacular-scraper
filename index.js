@@ -9,7 +9,7 @@ const missingRelated = require('./features/missing-related.js');
 init();
 
 function init() {
-  io.readJson('./data/test-data.json', performUrlLookups);
+  io.readJson('./data/data.json', performUrlLookups);
     
   async function performUrlLookups (err, jsonData) {
     let new_data = [];
@@ -30,9 +30,9 @@ function init() {
   
       await browser.close();
 
-      // io.writeData(new_data); // overwrites the file each time
+      io.writeData(new_data); // overwrites the file each time
     }
-    io.writeData(new_data); // only writes once at the end
+    // io.writeData(new_data); // only writes once at the end
   };
   
   async function getScrapedData(page, story_url) {
