@@ -20,7 +20,7 @@ function init() {
   
       let story_url = jsonData[i].url;
       
-      console.log("checking new url: ", story_url);
+      console.log("checking new story: ", story_url);
       
       let browser = await puppeteer.launch();
       let page = await browser.newPage();

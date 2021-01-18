@@ -2,42 +2,21 @@
   {
     "url": "https://spectacularnwt.com/story/bleeping-big-fish-nsfw-angling-northwest-territories",
     "contains_video": true,
-    "broken_links": [
-      "/what-to-do/fishing/lake-trout",
-      "/what-to-do/fishing",
-      "/attraction/great-bear-lake",
-      "/destinations/north-slave/city-yellowknife",
-      "/attraction/ingraham-trail",
-      "/attraction/east-arm",
-      "/what-to-do/fishing"
-    ],
     "missing_related": false
   },
   {
     "url": "https://spectacularnwt.com/what-to-do/fishing/arctic-char",
     "contains_video": false,
-    "broken_links": [],
     "missing_related": true
   },
   {
     "url": "https://spectacularnwt.com/story/par-north",
     "contains_video": false,
-    "broken_links": [
-      "/what-to-do/nature-and-wildlife/golfing",
-      "/destinations/south-slave/hay-river",
-      "/destinations/south-slave/fort-smith",
-      "/destinations/yellowknife",
-      "/destinations/western-arctic/ulukhaktok",
-      "/destinations/dehcho/fort-simpson",
-      "/destinations/sahtu/norman-wells",
-      "/destinations/western-arctic/inuvik"
-    ],
     "missing_related": false
   },
   {
-    "url": "https://spectacularnwt.com/story/epic-canoeing-naatsihchoh-national-park",
-    "contains_video": true,
-    "broken_links": [],
+    "url": "https://spectacularnwt.com/story/sahtu-close-comfortable",
+    "contains_video": false,
     "missing_related": false
   }
 ]
