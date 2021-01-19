@@ -52,7 +52,7 @@ async function checkLink(links_to_check) {
         broken_links_on_page.push(link);
       } 
       else {
-        console.log(err);
+        console.log("Unknown error: " + err);
         broken_links_on_page.push(link);
       }
     }
