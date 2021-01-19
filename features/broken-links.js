@@ -1,6 +1,5 @@
 const axios = require('axios');
 
-
 async function brokenLinks(page) {
   const hrefs = await page.evaluate(() => {
       try {

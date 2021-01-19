@@ -8,7 +8,7 @@ const missingRelated = require('./features/missing-related.js');
 init();
 
 function init() {
-  io.readJson('./data/test-data.json', performUrlLookups);
+  io.readJson('./data/data.json', performUrlLookups);
     
   async function performUrlLookups (err, jsonData) {
     let new_data = [];
@@ -40,8 +40,8 @@ function init() {
     
     scrapedUrlInfo["url"] = story_url;
     scrapedUrlInfo["contains_video"] = await hasVideo(page);
-    scrapedUrlInfo["broken_links"] = await brokenLinks(page);
     scrapedUrlInfo["missing_related"] = await missingRelated(page);
+    scrapedUrlInfo["broken_links"] = await brokenLinks(page);
     
     return scrapedUrlInfo;
   }
