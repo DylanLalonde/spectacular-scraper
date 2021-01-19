@@ -4,17 +4,19 @@ async function brokenLinks(page) {
   const hrefs = await page.evaluate(() => {
       try {
         return Array.from(
-          document.querySelectorAll('div.article-section-content p a[href]'),
-          a => a.getAttribute('href')
-        )
+          document.querySelectorAll('div.article-section-content p a[href]'), a => a.href)
+          // a => a.getAttribute('href')
+        // )
       } catch (err) {
         console.log(err);
       }
     }
   );
-  const links_to_check = await prependDomain(hrefs);
-  console.log("Links to check: " + links_to_check.length);
-  return await checkLink(links_to_check);
+  // const links_to_check = await prependDomain(hrefs);
+  // console.log("Links to check: " + links_to_check.length);
+  console.log("Links to check: " + hrefs.length);
+  // return await checkLink(links_to_check);
+  return await checkLink(hrefs);
 };  
 
 /**

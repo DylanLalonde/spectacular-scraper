@@ -15,7 +15,7 @@ function readJson(filePath, callback) {
 }
 
 async function writeData(data) {
-  fs.writeFile('./data/output-data.json', JSON.stringify(data, null, 2), err => {
+  fs.writeFile('./data/test-output-data.json', JSON.stringify(data, null, 2), err => {
     if (err) {
       console.log(err);
     } else {
