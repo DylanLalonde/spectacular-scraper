@@ -43,14 +43,14 @@ async function checkLink(links_to_check) {
         broken_links_on_page.push(link);
       }
     } catch (err) {
+      // if (err.response.status >= 400 && err.response.status <= 499) {
+      //   console.log('Client error: ' + err.response.status)
+      //   broken_links_on_page.push(link);
+      // }
       if (err.code == 'ECONNRESET') {
         console.log('Uh oh, link is down: ' + err.code)
         broken_links_on_page.push(link);
       } 
-      if (err.response.status >= 400 && err.response.status <= 499) {
-        console.log('Client error: ' + err.response.status)
-        broken_links_on_page.push(link);
-      }
       else {
         console.log(err);
         broken_links_on_page.push(link);
