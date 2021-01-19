@@ -5,19 +5,15 @@ async function brokenLinks(page) {
       try {
         return Array.from(
           document.querySelectorAll('div.article-section-content p a[href]'), a => a.href)
-          // a => a.getAttribute('href')
-        // )
       } catch (err) {
         console.log(err);
       }
     }
   );
-  // const links_to_check = await prependDomain(hrefs);
-  // console.log("Links to check: " + links_to_check.length);
   console.log("Links to check: " + hrefs.length);
-  // return await checkLink(links_to_check);
   return await checkLink(hrefs);
 };  
+
 
 /**
  * Helper functions
@@ -31,73 +27,37 @@ async function checkLink(links_to_check) {
     try {
       const res = await axios.get(link);
 
-      if (res.status == 200 || res.status == 201 || res.status == 202) {
-        console.log('Link is up! Status: ' + res.status)
+      if (res.status >= 200 && res.status <= 299) {
+        console.log('Successful response: ' + res.status)
       }
-      if (res.status == 301 || res.status == 302) {
-        console.log('Link is redirecting us:' + res.status);
+      if (res.status >= 300 && res.status <= 399) {
+        console.log('Redirecting: ' + res.status);
         broken_links_on_page.push(link);
       }
-      if (res.status == 401 || res.status == 403) {
-        console.log('Uh oh, not authorized to view link: ' + res.status)
+      if (res.status >= 400 && res.status <= 499) {
+        console.log('Client error: ' + res.status)
+        broken_links_on_page.push(link);
+      }
+      if (res.status >= 500 && res.status <= 599) {
+        console.log('Server error: ' + res.status)
         broken_links_on_page.push(link);
       }
     } catch (err) {
       if (err.code == 'ECONNRESET') {
         console.log('Uh oh, link is down: ' + err.code)
         broken_links_on_page.push(link);
-      } else {
-        console.log('Link is down, error message: ' + err);
+      } 
+      if (err.response.status >= 400 && err.response.status <= 499) {
+        console.log('Client error: ' + err.response.status)
+        broken_links_on_page.push(link);
+      }
+      else {
+        console.log(err);
         broken_links_on_page.push(link);
       }
     }
   }
   return broken_links_on_page;
 };
-
-async function prependDomain(incoming_links) {
-
-  domain = "https://spectacularnwt.com"
-  prependedLinks = [];
-
-  try {
-    incoming_links.forEach(link => {
-      if (link.startsWith('/')) {
-        prependedLinks.push(domain + link);
-      } else {
-        prependedLinks.push(link);
-      }
-    });
-    return prependedLinks;
-  } catch (err) {
-    console.log(err);
-  }
-}
-
-// async function prependDomain(incoming_links) {
-
-//   domain = "https://spectacularnwt.com"
-//   prependedLinks = [];
-
-//   try {
-//     incoming_links.forEach(link => {
-//       if (link.startsWith('/')) {
-//         prependedLinks.push(domain + link);
-//       } 
-//       if (link.startsWith('www') || link.startsWith('https://') || link.startsWith('http://')) {
-//         prependedLinks.push(link);
-//       }
-//       if (link.startsWith('mailto:')) {
-//         console.log("mailto: link found: " + link);
-//       } 
-//       else {
-//         prependedLinks.push(link);
-//       }
-//     });
-//     return prependedLinks;
-//   } catch (err) {
-//     console.log(err);
-//   }
-// }
 
 module.exports = brokenLinks;

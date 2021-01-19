@@ -39,7 +39,7 @@ function init() {
     let scrapedUrlInfo = {};
     
     scrapedUrlInfo["url"] = story_url;
-    scrapedUrlInfo["contains_video"] = await hasVideo(page);
+    scrapedUrlInfo["video_count"] = await hasVideo(page);
     scrapedUrlInfo["missing_related"] = await missingRelated(page);
     scrapedUrlInfo["broken_links"] = await brokenLinks(page);
     
