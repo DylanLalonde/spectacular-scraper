@@ -1,6 +1,6 @@
 # spectacular-crawler
 
-This program takes a list of URLs (JSON) and checks each link for specific issues.
+Takes a list of URLs (JSON) and checks each link for specific issues.
 The links are all blog articles, and they are each checked for:
 - broken links (checks each link in the article)
 - missing related articles
