@@ -8,7 +8,7 @@ const missingRelated = require('./features/missing-related.js');
 init();
 
 function init() {
-  io.readJson('./data/test-data.json', performUrlLookups);
+  io.readJson('./data/data.json', performUrlLookups);
     
   async function performUrlLookups (err, jsonData) {
     let new_data = [];
