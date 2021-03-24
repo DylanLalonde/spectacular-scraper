@@ -7,5 +7,3 @@ The links are all blog articles, and they are each checked for:
 - if the article contains a video (will in the future check if the video is broken)
 
 The program then outputs the required data (JSON).
-
-*Currently only works for the site it was built for*
