@@ -1,4 +1,4 @@
-# spectacular-crawler
+# article-crawler
 
 Takes a list of URLs (JSON) and checks each link for specific issues.
 The links are all blog articles, and they are each checked for:
